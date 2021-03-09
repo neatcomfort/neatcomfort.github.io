@@ -2,11 +2,11 @@
 /*******Settings for Web Server******************/
 //Please add the below settings in another file and add them here using include
 
-$domainname = "Replace with domain name here"; //Will be useful to generate the file link
-$domainhost="Replace with Host";
-$domainuser="Replace with your username";
-$domainpass="Replace with your password";
-$homelink = "link to home directory"; // This is the parent directory in which public_html directory is contained. Will start with /home
+$domainname = "neatcomfort"; //Will be useful to generate the file link
+$domainhost="github.com";
+$domainuser="neatcomfort";
+$domainpass="Zesu1970";
+$homelink = "neatcomfort/neatcomfort.github.io"; // This is the parent directory in which public_html directory is contained. Will start with /home
 $publiclink = "public_html/";
 $savedfiledirectory="myfiles"; //folder in which files uploaded by customer will be saved
 $destdir=$homelink.$publiclink.$savedfiledirectory;
